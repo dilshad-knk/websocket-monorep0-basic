@@ -1,0 +1,18 @@
+{
+  "private": true,
+
+  
+  "workspaces": [
+    "usingHTTPlibrary",
+    "client/vite-project"
+  ],
+  "scripts": {
+    "start:client": "npm run start --workspace client/vite-project",
+    "start:usingHTTPlibrary": "npm run start --workspace usingHTTPlibrary",
+    "build:client": "npm run build --workspace client/vite-project",
+    "build:usingHTTPlibrary": "npm run build --workspace usingHTTPlibrary"
+  }
+
+}
+
+
